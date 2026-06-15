@@ -1,0 +1,28 @@
+#include <zephyr/dt-bindings/adc/adc.h>
+#include <zephyr/dt-bindings/adc/mcux-lpadc.h>
+
+&pinmux_lpadc0 {
+	group0 {
+		pinmux = <ADC0_A3_PIO4_6>;
+	};
+};
+
+&lpadc0 {
+	#address-cells = <1>;
+	#size-cells = <0>;
+	channel@3 {
+		reg = <3>;
+		zephyr,gain = "ADC_GAIN_1";
+		zephyr,reference = "ADC_REF_EXTERNAL1";
+		zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+		zephyr,vref-mv = <1800>;
+		zephyr,resolution = <12>;
+		zephyr,input-positive = <MCUX_LPADC_CH3A>;
+	};
+};
+
+/ {
+	aliases {
+		myadc = &lpadc0;
+	};
+};

@@ -1,0 +1,269 @@
+{
+    "zephyr-workbench.westWorkspace.applications": [
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter2/my_app"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter3/kconfig_hello"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter3/kconfig_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter4/hello_world"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter5/my_adc"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter5/mygpios"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter5/mytotoled"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/init_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/multithreaded_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/multithreaded_toto2"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/multithreaded_toto3"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/multithreaded_toto4"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter6/workqueue_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter7/myrandom"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter7/myrandom2"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter7/myrandom3"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter7/myrandom4"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter7/my_philosophers"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter8/user_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter8/user_toto2"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter8/user_apps_toto"
+        },
+        {
+            "build.configurations": [
+                {
+                    "name": "primary",
+                    "board": "frdm_mcxn236",
+                    "active": "true"
+                }
+            ],
+            "toolchain": "zephyr",
+            "sdk": "${workspaceFolder}/../zephyr-sdk-1.0.1",
+            "path": "chapters/chapter8/user_syscall_toto"
+        }
+    ],
+    "zephyr-workbench.westWorkspace.selectedApplication": "chapter2/my_app"
+}

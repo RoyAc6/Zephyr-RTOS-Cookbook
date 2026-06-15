@@ -1,0 +1,14 @@
+compatible: toto-led
+
+description: Example custom node describing a single LED GPIO and a blink delay.
+
+properties:
+  toto-gpios:
+    type: phandle-array
+    required: true
+    description: My LED GPIO.
+  my-delay-ms:
+    type: int
+    required: false
+    default: 500
+    description: Blink delay in milliseconds.

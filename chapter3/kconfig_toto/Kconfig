@@ -1,0 +1,11 @@
+mainmenu "My ToTo App Configuration"
+
+source "Kconfig.zephyr"
+
+menu "ToTo Application Options"
+    config TOTO
+    bool "Enable ToTo feature"
+    default n
+    help
+        Enables the toto dummy feature in this application.
+endmenu

@@ -1,0 +1,10 @@
+/ {
+	toto_led0: toto_led0 {
+		compatible = "toto-led";
+		toto-gpios = <&gpio4 18 GPIO_ACTIVE_HIGH>;
+		my-delay-ms = <1000>; /* Optional, equals 500 by default */
+	};
+	aliases {
+		mytotoled = &toto_led0;
+	};
+};

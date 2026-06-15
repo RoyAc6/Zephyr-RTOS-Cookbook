@@ -1,0 +1,1 @@
+void toto_init(void);

@@ -1,0 +1,2 @@
+zephyr_sources_ifdef(CONFIG_TOTO toto.c)
+zephyr_include_directories_ifdef(CONFIG_TOTO include)

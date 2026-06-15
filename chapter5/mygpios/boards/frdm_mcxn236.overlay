@@ -1,0 +1,14 @@
+/ {
+	leds {
+		compatible = "gpio-leds";
+		myled0: my_led {
+			/* Set the actual used gpio group and pin */
+			gpios = <&gpio1 5 GPIO_ACTIVE_HIGH>;
+			label = "My LED";
+		};
+	};
+
+	aliases {
+		led0 = &myled0;
+	};
+};
