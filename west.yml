@@ -14,5 +14,3 @@ manifest:
           - percepio
           - hal_stm32
           - hal_nxp
-  self:
-    path: chapters
